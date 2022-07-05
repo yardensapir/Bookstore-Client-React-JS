@@ -1,0 +1,9 @@
+.main-book-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    min-height: calc(100vh - 80px);
+    color: white;
+}
+

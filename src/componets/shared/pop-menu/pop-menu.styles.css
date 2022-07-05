@@ -1,0 +1,59 @@
+.backdrop {
+  z-index: 200;
+  position: fixed;
+  background-color: #000000bb;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: 800;
+  letter-spacing: 2px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.menu-items li:hover {
+  background-color: #ffa260;
+  transition: 0.25s;
+  border-radius: 10px;
+  transform: translateY(-0.1em);
+}
+
+.backdrop button {
+  color: #ffa260;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 26px;
+}
+
+.backdrop button:hover {
+  color: white;
+  transition: 0.25s;
+  transform: translateY(-0.1em);
+}
+
+#logout-btn {
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+}

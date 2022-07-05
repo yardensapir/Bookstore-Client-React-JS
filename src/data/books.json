@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "1",
+    "title": "All Our Wrong Todays",
+    "authour": "Elan Mastai",
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/51xFzrpdhzL._SX329_BO1,204,203,200_.jpg",
+    "price": 90,
+    "pages": "389",
+    "info": "In Tom Barren's 2016, humanity thrives in a techno-utopian paradise of flying cars, moving sidewalks, and moon bases, where avocados never go bad and punk rock never existed -- because it wasn't necessary. Except Tom just can't seem to find his place in this dazzling, idealistic world, and that's before his life gets turned upside down. Utterly blindsided by an accident of fate, Tom makes a rash decision that drastically changes not only his own life but the very fabric of the universe itself. In a time-travel mishap, Tom finds himself stranded in our 2016, what we think of as the real world. For Tom, our normal"
+  },
+
+  {
+    "_id": "2",
+    "title": "The Little Prince",
+    "authour": "Antoine de Saint-Exupéry",
+    "bookCover": "https://m.media-amazon.com/images/I/412RG92nDPL.jpg",
+    "price": 60.21,
+    "pages": "96",
+    "info": "A pilot stranded in the desert awakes one morning to see, standing before him, the most extraordinary little fellow. "
+  },
+
+  {
+    "_id": "3",
+    "title": "World Cup Wishes",
+    "authour": "Eshkol Nevo",
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/51XH-LB7D1L._SX310_BO1,204,203,200_.jpg",
+    "price": 15.27,
+    "pages": "352",
+    "info": "Four friends get together to watch the 1998 World Cup final. One of them has an idea: let's write down our wishes for the next few years, put them away, and during the next final - four years from now - we'll get them out and see how many we've achieved. This is how World Cup Wishes opens, and from here we watch what happens to their wishes and their friendships as life marches on."
+  },
+  {
+    "_id": "4",
+    "title": "Angela's Ashes",
+    "authour": "Frank McCourt",
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/51fdAghXE5L._SX328_BO1,204,203,200_.jpg",
+    "price": 16.12,
+    "pages": "367",
+    "info": "“When I look back on my childhood I wonder how I managed to survive at all. It was, of course, a miserable childhood: the happy childhood is hardly worth your while. Worse than the ordinary miserable childhood is the miserable Irish childhood, and worse yet is the miserable Irish Catholic childhood.”"
+  },
+  {
+    "_id": "5",
+    "title": "The Fault in Our Stars",
+    "authour": "John Green",
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/51ED6WxFy8L._SX335_BO1,204,203,200_.jpg",
+    "price": 20.86,
+    "pages": "352",
+    "info": "From John Green, #1 bestselling author of The Anthropocene Reviewed and Turtles All the Way Down, The Fault in Our Stars is insightful, bold, irreverent, and raw. It brilliantly explores the funny, thrilling, and tragic business of being alive and in love."
+  },
+  {
+    "_id": "6",
+    "title": "The Perks of Being a Wallflower",
+    "authour": "Stephen Chobsky",
+    "bookCover": "https://m.media-amazon.com/images/P/1451696191.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 46.48,
+    "pages": "224",
+    "info": "The critically acclaimed debut novel from Stephen Chbosky, Perks follows observant “wallflower” Charlie as he charts a course through the strange world between adolescence and adulthood. First dates, family drama, and new friends. Sex, drugs, and The Rocky Horror Picture Show. Devastating loss, young love, and life on the fringes. Caught between trying to live his life and trying to run from it, Charlie must learn to navigate those wild and poignant roller-coaster days known as growing up."
+  },
+  {
+    "_id": "7",
+    "title": "Call Me By Your Name",
+    "authour": "Andre Aciman",
+    "bookCover": "https://m.media-amazon.com/images/P/1250169445.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 26.68,
+    "pages": "256",
+    "info": "Andre Aciman's Call Me by Your Name is the story of a sudden and powerful romance that blossoms between an adolescent boy and a summer guest at his parents’ cliffside mansion on the Italian Riviera. Each is unprepared for the consequences of their attraction, when, during the restless summer weeks, unrelenting currents of obsession, fascination, and desire intensify their passion and test the charged ground between them. Recklessly, the two verge toward the one thing both fear they may never truly find again: total intimacy. It is an instant classic and one of the great love stories of our time."
+  },
+  {
+    "_id": "8",
+    "title": "The Catcher In The Rye",
+    "authour": "J.D Sailnger",
+    "bookCover": "https://m.media-amazon.com/images/P/B07W5FQLDP.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 20,
+    "pages": "234",
+    "info": "The first of J. D. Salinger's four books to be published, The Catcher in the Rye is one of the most widely read and beloved of all contemporary American novels."
+  },
+  {
+    "_id": "9",
+    "title": "The Rosie Project",
+    "authour": "Graeme Simsion",
+    "bookCover": "https://m.media-amazon.com/images/P/B00B2FLDRQ.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 60,
+    "pages": "316",
+    "info": "MEET DON TILLMAN, a brilliant yet socially challenged professor of genetics, who’s decided it’s time he found a wife. And so, in the orderly, evidence-based manner with which Don approaches all things, he designs the Wife Project to find his perfect partner: a sixteen-page, scientifically valid survey to filter out the drinkers, the smokers, the late arrivers"
+  },
+  {
+    "_id": "10",
+    "title": "The Rosie Effect",
+    "authour": "Graeme Simsion",
+    "bookCover": "https://m.media-amazon.com/images/P/1476767327.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 41,
+    "pages": "368",
+    "info": "Don sets about learning the protocols of becoming a father, but his unusual research style gets him into trouble with the law. Fortunately his best friend Gene is on hand to offer advice: he’s left Claudia and moved in with Don and Rosie."
+  },
+  {
+    "_id": "11",
+    "title": "The Day Lasts More Than a Hundred Years",
+    "authour": "Chingiz Aitmatov",
+    "bookCover": "https://m.media-amazon.com/images/P/0253204828.01._SCLZZZZZZZ_SX500_.jpg",
+    "price": 82.06,
+    "pages": "368",
+    "info": "Set in the vast windswept Central Asian steppes and the infinite reaches of galactic space, this powerful novel offers a vivid view of the culture and values of the Soviet Union's Central Asian peoples."
+  },
+  {
+    "_id": "12",
+    "title": "Rick and Morty Book One",
+    "authour": "Zac Gorman",
+    "bookCover": "https://images-na.ssl-images-amazon.com/images/I/51XJOFqBREL._SX331_BO1,204,203,200_.jpg",
+    "price": 159.9,
+    "pages": "296",
+    "info": "Join the excitement as depraved genius Rick Sanchez embarks on insane adventures with his awkward grandson Morty across the universe and across time. Caught in the crossfire are his teenage granddaughter Summer, his veterinary surgeon daughter Beth, and his hapless son-in-law Jerry. This collection features the first ten issues of the comic book series, including “THE WUBBA LUBBA DUB DUB OF WALL STREET,"
+  }
+]

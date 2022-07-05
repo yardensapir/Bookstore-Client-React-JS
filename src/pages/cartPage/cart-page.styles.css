@@ -1,0 +1,28 @@
+.main-cart-page {
+  padding: 20px;
+  width: 100vw;
+  min-height: calc(100vh - 80px);
+  color: white;
+  text-align: center;
+
+ 
+}
+
+
+
+.checkout-btn {
+  margin: 1rem;
+  font-weight: bold;
+  background: #ffa260;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffa260;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 16px;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+.checkout-btn:hover {
+  transform: translateY(-0.25em);
+}

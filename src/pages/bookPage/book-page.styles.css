@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+.book-page-container {
+  padding: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh - 80px);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.book-page-container button {
+  margin: 1rem;
+  font-weight: bold;
+  background: #ffa260;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffa260;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 16px;
+  transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+.book-page-container button:hover {
+  transform: translateY(-0.25em);
+}
+.book-page-container span {
+  padding: 2rem;
+}
+.book-page-container img {
+  border-radius: 6px;
+  border: solid 3px white;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+}

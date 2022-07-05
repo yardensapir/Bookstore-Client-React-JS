@@ -1,0 +1,33 @@
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 26px;
+
+}
+
+.item-container img {
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
+  width: 12rem;
+}
+
+.remove-btn {
+  margin: 1rem;
+  font-weight: bold;
+  background: #ffa260;
+  cursor: pointer;
+  color: #ffffff;
+  border: 1px solid #ffa260;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.remove-btn:hover {
+  transform: translateY(-0.25em);
+  background-color: #f54534;
+  border: 1px solid #f54534;
+  transition: 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
