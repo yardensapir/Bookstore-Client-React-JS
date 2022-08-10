@@ -8,15 +8,16 @@
   width: 100vw;
   min-height: calc(100vh - 80px);
   padding: 16px;
-
 }
 
-.main-home-page p{
+.main-home-page p {
   color: white;
   padding: 16px;
   font-size: 20px;
   max-width: 650px;
-
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .main-home-page h1 {
@@ -28,6 +29,9 @@
   letter-spacing: 2px;
   line-height: 60px;
   color: white;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .info-btn {
@@ -42,6 +46,9 @@
   font-size: 16px;
   transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
   font-size: 22px;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .info-btn:hover {
@@ -50,4 +57,37 @@
   border-color: #ffa260;
   color: #ffffff;
   transform: translateY(-0.25em);
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
