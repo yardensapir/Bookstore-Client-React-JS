@@ -16,7 +16,7 @@ import {
   updatePasswordRepeatedAction,
 } from "../../actions/signup-form.actions";
 import { AuthContext } from "../../contexts/Auth.context";
-
+import environments from "../../environments/environments.js";
 const SignupPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const authContextValue = useContext(AuthContext);
@@ -123,7 +123,7 @@ const SignupPage = () => {
       values.repeatedPassword === true
     ) {
       try {
-        const response = await fetch("http://localhost:3000/users/signup", {
+        const response = await fetch(`${environments.API_URL}/users/signup`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

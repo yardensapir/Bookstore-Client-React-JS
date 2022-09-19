@@ -6,6 +6,7 @@ import { AuthContext } from '../../contexts/Auth.context'
 import { useNavigate } from 'react-router-dom'
 import { chekout, initCartAction } from '../../actions/cart.actions'
 import { CartContext } from '../../contexts/Cart.context'
+import environments from "../../environments/environments.js";
 
 const CartPage = () => {
   const navigate = useNavigate()
@@ -17,7 +18,7 @@ const CartPage = () => {
 
   const handelCheckout = async () => {
     try {
-      const response = await fetch('http://localhost:3000/cart/checkout', {
+      const response = await fetch(`${environments.API_URL}/cart/checkout`, {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${authContextValue.userToken}`,
@@ -40,7 +41,7 @@ const CartPage = () => {
     }
     const getUserCart = async () => {
       try {
-        const response = await fetch('http://localhost:3000/cart', {
+        const response = await fetch(`${environments.API_URL}/cart`, {
           headers: {
             Authorization: `Bearer ${authContextValue.userToken}`,
           },

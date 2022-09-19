@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import Loader from '../../componets/shared/loader/Loader.component'
 import { AuthContext } from '../../contexts/Auth.context'
-
+import environments from '../../environments/environments'
 const BookPage = (props) => {
   const [isLoading, setIsLoading] = useState(true)
   const [book, setBook] = useState(null)
@@ -15,7 +15,7 @@ const BookPage = (props) => {
   const addBookToCart = async () => {
     const data = { bookID: params.bookID }
     try {
-      const response = await fetch('http://localhost:3000/cart/add-to-cart/', {
+      const response = await fetch(`${environments.API_URL}/cart/add-to-cart/`, {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${authContextValue.userToken}`,
@@ -38,7 +38,7 @@ const BookPage = (props) => {
     const bookID = params.bookID
     const getBook = async () => {
       try {
-        const respone = await fetch(`http://localhost:3000/books/${bookID} `)
+        const respone = await fetch(`${environments.API_URL}/books/${bookID} `)
 
         if (respone.status !== 200) {
           throw new Error()

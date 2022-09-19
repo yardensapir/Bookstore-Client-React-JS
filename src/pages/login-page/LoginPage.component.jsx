@@ -12,7 +12,7 @@ import {
   updatePasswordAction,
 } from "../../actions/login-form.action";
 import { AuthContext } from "../../contexts/Auth.context";
-
+import environments from "../../environments/environments.js";
 const LoginPage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -79,7 +79,7 @@ const LoginPage = () => {
     const values = loginFormState.validities;
     if (values.password === true && values.email === true) {
       try {
-        const response = await fetch("http://localhost:3000/users/login", {
+        const response = await fetch(`${environments.API_URL}/users/login`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

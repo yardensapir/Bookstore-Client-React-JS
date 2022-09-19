@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./books-page.styles.css";
 import Book from "../../componets/shared/book/Book.component";
 import Loader from "../../componets/shared/loader/Loader.component";
+import environments from "../../environments/environments.js";
 
 const BooksPage = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +11,7 @@ const BooksPage = () => {
   useEffect(() => {
     const getBooks = async () => {
       try {
-        const respone = await fetch("http://localhost:3000/books");
+        const respone = await fetch(`${environments.API_URL}/books`);
 
         if (respone.status !== 200) {
           throw new Error();
