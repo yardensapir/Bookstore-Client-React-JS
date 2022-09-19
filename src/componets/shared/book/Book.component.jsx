@@ -17,4 +17,3 @@ const Book = (props) => {
 
 export default Book;
 
-{/* <img src={props.bookCover} alt="" onClick={()=>navigate(`/book/${props.id}`)} /> */}

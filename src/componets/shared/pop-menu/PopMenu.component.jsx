@@ -19,10 +19,11 @@ const PopMenu = ({ closeMenu }) => {
       if (response.status !== 200) {
         throw new Error();
       }
-      const responseData = await response.json();
+      await response.json();
       localStorage.removeItem("userToken");
       authContextValue.setUserToken(null);
       closeMenu(false);
+      alert("Logout Success !")
       navigate("/");
     } catch (err) {
       alert("Something went wrong");
