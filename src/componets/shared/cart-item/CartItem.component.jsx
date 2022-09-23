@@ -3,14 +3,14 @@ import './cart-item.styles.css'
 import { AuthContext } from '../../../contexts/Auth.context'
 import { CartContext } from '../../../contexts/Cart.context'
 import { removeItem } from '../../../actions/cart.actions'
-
+import environments from '../../../environments/environments.js'
 const CartItem = (props) => {
   const authContextValue = useContext(AuthContext)
   const cartContextValue = useContext(CartContext)
 
   const updateCart = async () => {
     try {
-      const response = await fetch('http://localhost:3000/cart', {
+      const response = await fetch(`${environments.API_URL}/cart`, {
         method: 'PATCH',
         headers: {
           Authorization: `Bearer ${authContextValue.userToken}`,

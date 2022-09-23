@@ -5,12 +5,12 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../contexts/Auth.context";
 import { useNavigate } from "react-router-dom";
-
+import environments from '../../../environments/environments.js'
 const PopMenu = ({ closeMenu }) => {
   const navigate = useNavigate();
   const handelLogOut = async () => {
     try {
-      const response = await fetch("http://localhost:3000/users/logout", {
+      const response = await fetch(`${environments.API_URL}/users/logout`, {
         method: "POST",
         headers: {
           'Authorization': `Bearer ${authContextValue.userToken}`,
