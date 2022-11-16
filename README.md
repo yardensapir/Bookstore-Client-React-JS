@@ -18,7 +18,7 @@ In the applicaiton we can add books to the database, edit them and delete them. 
 
 ## App Website
 
-https://yarden-book-store-client.herokuapp.com/
+https://yarden-book-store-client.onrender.com/
 
 ## Setup
 
